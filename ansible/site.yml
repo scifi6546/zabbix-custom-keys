@@ -1,0 +1,5 @@
+---
+- hosts: monitoring
+  name: Install Zabbix
+  roles:
+  - zabbix

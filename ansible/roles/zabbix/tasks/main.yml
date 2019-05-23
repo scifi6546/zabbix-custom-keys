@@ -1,0 +1,6 @@
+---
+- name: Install zabbix
+  yum:
+    name: git
+    state: latest
+  become: yes
